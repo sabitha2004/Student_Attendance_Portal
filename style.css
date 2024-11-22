@@ -1,0 +1,129 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    padding:0;
+    background-color:rgb(224, 230, 235);
+}
+
+.navbar{
+    background-color:rgb(54, 9, 80);
+    color:white;
+    padding: 5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar-brand{
+    font-size: 18px;
+}
+
+.navbar-links{
+    display:flex;
+}
+
+.navbar-links a {
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border-color: #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+strong {
+    margin-right: 10px;
+    flex-basis: auto;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+button.absent,
+button.present,
+button.leave {
+    background-color: black;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+}
+
+#resultSection {
+    margin-top: 20px;
+}
+
+#resultSection h3 {
+    margin-top: 10px;
+}
+
+#resultSection p {
+    margin-bottom: 5px;
+}
+
+#resultSection span {
+    font-weight: bold;
+}
+
